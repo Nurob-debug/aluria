@@ -1,0 +1,60 @@
+body{
+    color:whitesmoke;
+    background: grey;
+    margin: 0px;
+    font-family: "Comic Neue", cursive;
+    margin-bottom: 100px;
+}
+
+header{
+    border-bottom: solid 2px rgb(190, 184, 205);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(190, 184, 205);
+}
+
+.kanie{
+background: rgb(140, 151, 195);
+padding-bottom: 80px;
+padding-top: 80px;
+display: flex;
+justify-content: center;
+}
+
+.kanyewess{
+margin-right: 5%;
+}
+
+h1{
+    font-size: 40px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.videos {
+ display: flex;
+ overflow-x: auto;
+ gap: 10px;
+}
+
+.cartegoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50;
+}
+
+.videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.videos :hover img {
+    opacity: 1.0;
+    border: 1px solid white
+}
+
+.cartegoria h2{
+    color: white
+}
